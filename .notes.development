@@ -1,0 +1,15 @@
+STEPS:
+
+1. change business information in src/_data/client.json
+2. add domain in src/robots.txt for sitemap creation
+3. manually add permalinks, page titles, meta descriptions, and preload images on all pages
+4. add logo to header and footer 
+5. manually add location page file names to /pages/locations/ and proper links to header & footer navigation
+6. manually change any internal links
+7. add business description in footer
+
+
+
+FOR AARON:
+- change hero
+- change emblem for universal use

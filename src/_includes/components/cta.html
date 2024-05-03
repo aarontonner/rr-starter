@@ -1,0 +1,32 @@
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">CTA H2</h2>
+    <p>Content</p>
+    <a href="tel: {{client.phoneForTel}}" class="cs-button-solid"
+      >Call now: {{client.phoneFormatted}}</a
+    >
+  </div>
+  <picture>
+    <source
+      media="(max-width: 600px)"
+      srcset="/assets/images/blog/landing.jpg"
+    />
+    <source
+      media="(min-width: 601px)"
+      srcset="/assets/images/blog/landing.jpg"
+    />
+    <img
+      aria-hidden="true"
+      decoding="async"
+      src="/assets/images/blog/landing.jpg"
+      alt=""
+      loading="lazy"
+      width="2500"
+      height="1667"
+    />
+  </picture>
+</section>

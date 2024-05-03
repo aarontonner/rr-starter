@@ -1,0 +1,171 @@
+---
+title: "Contact | Aaron Tonner Web Solutions | Websites & SEO"
+description: "Whether you're ready to start a project or you're just looking for answers to your website or SEO questions, you can reach me directly at 587-437-9161."
+preloadImg: "/assets/images/cabinets2.jpg"
+permalink: "/contact/"
+eleventyNavigation:
+  key: Contact
+  order: 500
+---
+
+{% extends "layouts/base.html" %} {% block head %}
+<link rel="stylesheet" href="/assets/css/contact.css" />
+{% endblock %} {% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="ContactBanner-327">
+  <div class="cs-container">
+    <div class="cs-breadcrumbs">
+      <a href="/" class="cs-link">Home</a>
+      <a href="/contact" class="cs-link cs-active">Contact</a>
+    </div>
+    <h1 class="cs-int-title">Easily Get In Touch</h1>
+    <p class="cs-text light">
+      Whether you're ready to start a project or you're just looking for answers
+      to your website or SEO questions, don't hesitate in reaching out to me by
+      phone, email, or by using the contact form below.
+    </p>
+  </div>
+  <!--Background Image-->
+  <picture class="cs-background">
+    <source
+      media="(max-width: 600px)"
+      srcset="https://csimg.nyc3.digitaloceanspaces.com/Banners/library-m.jpg"
+    />
+    <source
+      media="(min-width: 601px)"
+      srcset="https://csimg.nyc3.digitaloceanspaces.com/Banners/library.jpg"
+    />
+    <img
+      aria-hidden="true"
+      loading="lazy"
+      decoding="async"
+      src="https://csimg.nyc3.digitaloceanspaces.com/Banners/library.jpg"
+      alt="library"
+      width="1920"
+      height="375"
+    />
+  </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                   Contact                    -->
+<!-- ============================================ -->
+
+<section id="contact-1271">
+  <div class="cs-container">
+    <div class="cs-form-group">
+      <h3 class="cs-h3">
+        <picture class="cs-picture">
+          <img
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/clipboard-orange.svg"
+            alt="clipboard"
+            width="32"
+            height="32"
+          />
+        </picture>
+        I'll be thrilled to hear from you and learn about your website or SEO
+        project.
+      </h3>
+      <!--Form-->
+      <form
+        class="cs-form"
+        id="cs-form-1271"
+        name="contactpage"
+        method="POST"
+        data-netlify="true"
+      >
+        <input type="hidden" name="form-name" value="contactpage" />
+
+        <label class="cs-label">
+          Name
+          <input
+            class="cs-input"
+            required
+            type="text"
+            id="name-1271"
+            name="name"
+            placeholder="Name"
+          />
+        </label>
+        <label class="cs-label cs-email">
+          Email
+          <input
+            class="cs-input"
+            required
+            type="email"
+            id="email-1271"
+            name="email"
+            placeholder="Email"
+          />
+        </label>
+        <label class="cs-label cs-phone">
+          Phone
+          <input
+            class="cs-input"
+            required
+            type="phone"
+            id="phone-1271"
+            name="phone"
+            placeholder="Phone"
+          />
+        </label>
+        <label class="cs-label">
+          Message
+          <textarea
+            class="cs-input cs-textarea"
+            required
+            name="Message"
+            id="message-1271"
+            placeholder="Write message..."
+          ></textarea>
+        </label>
+        <button class="cs-button-solid cs-submit" type="submit">
+          Send Message
+        </button>
+      </form>
+    </div>
+    <div class="cs-wrapper">
+      <div class="cs-content">
+        <span class="cs-topper">Contact me</span>
+        <h2 class="cs-title">Get in touch with me here</h2>
+        <p class="cs-text">
+          I'd love to hear about your project and discuss how I can help. Please
+          fill the form on the right side to schedule a call or discussion to
+          get started on your new website.
+        </p>
+      </div>
+    </div>
+  </div>
+  <picture class="cs-background">
+    <!--Mobile Image-->
+    <source
+      media="(max-width: 600px)"
+      srcset="
+        https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/white-waves-m.svg
+      "
+    />
+    <!--Tablet and above Image-->
+    <source
+      media="(min-width: 601px)"
+      srcset="
+        https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/white-waves.svg
+      "
+    />
+    <img
+      loading="lazy"
+      decoding="async"
+      src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/white-waves.svg"
+      alt="waves"
+      width="960"
+      height="839"
+    />
+  </picture>
+</section>
+
+{% endblock %}

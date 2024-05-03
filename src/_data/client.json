@@ -1,0 +1,15 @@
+{
+  "name": "BUSINESS NAME",
+  "email": "EMAIL@EMAIL.com",
+  "phoneForTel": "000-000-0000",
+  "phoneFormatted": "(000) 000-0000",
+  "address": {
+    "lineOne": "ADDRESS LINE 1",
+    "lineTwo": "ADDRESS LINE 2",
+    "city": "CITY",
+    "state": "STATE",
+    "zip": "ZIP",
+    "mapLink": "https://www.google.com/maps/place/Aaron+Tonner+Web+Solutions/@51.0276233,-114.087835,10z/data=!4m6!3m5!1s0x8984d19ad4196043:0xa41e3748c364663b!8m2!3d51.0276233!4d-114.087835!16s%2Fg%2F11p001rjcp?entry=ttu"
+  },
+  "domain": "https://www.DOMAIN.com"
+}
