@@ -1,15 +1,33 @@
 STEPS:
 
+- local images for area
+
 1. change business information in src/_data/client.json
 2. add domain in src/robots.txt for sitemap creation
-3. manually add permalinks, page titles, meta descriptions, and preload images on all pages
+3. manually add permalinks, page titles, meta descriptions, preload images, internal links on all pages
 4. add logo to header and footer 
 5. manually add location page file names to /pages/locations/ and proper links to header & footer navigation
-6. manually change any internal links
-7. add business description in footer
+and add page content, including page specific FAQ
+6. add business description in footer and mirror anywhere else online if possile (gmb)
+7. manually change image alt text on all pages
+8. add 'other-content' links to header and footer, change file names, and add page content
+9. add FAQ page content
+10. add contact page content
+11. confirm on ALL pages - SEO titles, H1, proper phone number, proper links
+12. submit sitemap to GSC
+
+is site working? go hard.
+A) add /locations page with links to all locations, create 'locations' component with internal links and add to all pages
+B) add 'other-content' component with internal links to all pages
+C) add more CTA's site-wide within content
+D) start tracking using GA and GSC, create tracking projects in SEMRUSH
+E) develop blog/other-content content plan (videos, 3 pillars, internal links, unique images, etc)
+F) worth adding unique images across the site?
+G) more internal links
+H) develop unique logo and business voice
+I) now possible to get gmb and customer reviews? probably only if committ to one company
 
 
 
 FOR AARON:
-- change hero
 - change emblem for universal use
